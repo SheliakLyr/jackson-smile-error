@@ -1,0 +1,79 @@
+{
+  "value" : [ {
+    "event" : {
+      "ps_Event1" : {
+        "id" : {
+          "refId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#1",
+          "name" : "ResourcesSharedInOneOrderItem_Product"
+        }
+      }
+    }
+  }, {
+    "event" : {
+      "ps_Event2" : {
+        "productSpecId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#2",
+        "providedByPartyIds" : {
+          "newValue" : [ "AdiXVmaIQv-ygIBvCR9Cbg#2" ]
+        }
+      }
+    }
+  }, {
+    "event" : {
+      "ps_Event3" : {
+        "productSpecId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#3",
+        "productFamily" : {
+          "newValue" : "internet"
+        }
+      }
+    }
+  }, {
+    "event" : {
+      "ps_Event4" : {
+        "productSpecId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#4",
+        "mainProduct" : false,
+        "productType" : "GenericService",
+        "definedBusinessModel" : "Subscription"
+      }
+    }
+  }, {
+    "event" : {
+      "ps_ProductSpecResourceSpecUseAddedEvent" : {
+        "resourceSpecUsePK" : {
+          "uid" : "oCLxpB3ZGRQ",
+          "name" : "ResourcesSharedInOneOrderItem_subscriptionID"
+        },
+        "productSpecId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#5",
+        "resourceSpecId" : "-k4RDXhdRKOAInuBT7UArw#3hGmes9DTfiLQqIFDj5eeg#2"
+      }
+    }
+  }, {
+    "event" : {
+      "ps_ProductSpecResourceSpecUseIdentifierUsesChangedEvent" : {
+        "resourceSpecUseId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#oCLxpB3ZGRQ#6",
+        "identifierUses" : [ {
+          "subscriptionIdentifierId" : "8xWLSFPGTMakl1Pue7JYPA#3hGmes9DTfiLQqIFDj5eeg#3"
+        } ]
+      }
+    }
+  }, {
+    "event" : {
+      "ps_ProductSpecResourceSpecUseAddedEvent" : {
+        "resourceSpecUsePK" : {
+          "uid" : "QDMYgLUKoOA",
+          "name" : "ResourcesSharedInOneOrderItem_subscriptionID2"
+        },
+        "productSpecId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#7",
+        "resourceSpecId" : "-k4RDXhdRKOAInuBT7UArw#3hGmes9DTfiLQqIFDj5eeg#2"
+      }
+    }
+  }, {
+    "event" : {
+      "ps_ProductSpecResourceSpecUseIdentifierUsesChangedEvent" : {
+        "resourceSpecUseId" : "SXzxbZVbTbmuLhMmEIjR4g#3hGmes9DTfiLQqIFDj5eeg#QDMYgLUKoOA#8",
+        "identifierUses" : [ {
+          "subscriptionIdentifierId" : "luoLb-l2QDOqkioV_7tgcg#3hGmes9DTfiLQqIFDj5eeg#3"
+        } ]
+      }
+    }
+  } ]
+}
